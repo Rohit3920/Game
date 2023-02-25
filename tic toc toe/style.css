@@ -56,11 +56,16 @@ nav .result .result-text {
 .container .play-space {
     height: 250px;
     min-height: 120px;
-    /* font-size: 140px; */
+    font-size: 140px;
     color: white;
     text-align: center;
     padding: 0;
+    cursor: pointer;
+    
+    
 }
+
+
 
 
 @media screen and (min-width: 0px) {
