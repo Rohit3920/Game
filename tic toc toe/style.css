@@ -31,5 +31,6 @@ nav div input::placeholder{
 }
 
 nav .result{
+    width: 250px;
     border-radius: 10px;
 }
