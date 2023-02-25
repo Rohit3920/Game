@@ -41,11 +41,58 @@ nav .result .result-text {
     width: 50%;
 }
 
-.play-space{
+.play-space {
     background: transparent;
     outline: none;
-    border:1px solid white;
+    border: 1px solid white;
+}
+
+.container {
+
+    margin: 20px auto 0 auto;
+
+}
+
+.container .play-space {
+    height: 250px;
+    min-height: 120px;
+    /* font-size: 140px; */
+    color: white;
+    text-align: center;
+    padding: 0;
 }
 
 
+@media screen and (min-width: 0px) {
+    .play-space {
+        max-height: 90px;
+        font-size: 80px;
+    }
+}
+@media screen and (min-width: 576px) {
+    .play-space {
+        max-height: 125px;
+        font-size: 90px;
+    }
+}
 
+@media (min-width: 768px) {
+    .play-space {
+        max-height: 180px;
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .play-space {
+        max-height: 220px;
+        font-size: 110px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .play-space {
+        max-height: 260px;
+        font-size: 120px;
+    }
+}
