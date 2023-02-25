@@ -1,19 +1,21 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-#hardness{
+
+#hardness {
     outline: none;
     border: none;
     width: 90px;
 }
 
-nav .first, nav .second{
+nav .first,
+nav .second {
     border-radius: 5px;
 }
 
-nav div input{
+nav div input {
     background: transparent;
     outline: none;
     border: none;
@@ -21,16 +23,29 @@ nav div input{
     width: 120px;
 }
 
-nav div i{
+nav div i {
     margin-left: 5px;
 }
 
-nav div input::placeholder{
+nav div input::placeholder {
     color: white;
     text-align: center;
 }
 
-nav .result{
+nav .result {
     width: 250px;
     border-radius: 10px;
 }
+
+nav .result .result-text {
+    width: 50%;
+}
+
+.play-space{
+    background: transparent;
+    outline: none;
+    border:1px solid white;
+}
+
+
+
